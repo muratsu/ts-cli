@@ -1,0 +1,28 @@
+{
+  "name": "ts-cli",
+  "version": "0.0.1",
+  "description": "a template for ts cli apps",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/cli.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murat Sutunc",
+  "license": "MIT",
+  "devDependencies": {
+    "@commander-js/extra-typings": "^10.0.3",
+    "@types/node": "^18.15.11",
+    "@types/yargs": "^17.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "yargs": "^17.7.1"
+  }
+}
