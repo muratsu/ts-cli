@@ -13,6 +13,8 @@ export const builder: CommandBuilder<Options, Options> = (yargs) => {
 
 export const handler = (argv: Arguments<Options>): void => {
   const { page } = argv;
+  console.log(process.env.OPENAI_API_KEY);
+
   process.stdout.write(`contents of ${page}`);
   process.exit(0);
 };

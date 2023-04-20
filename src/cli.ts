@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+import { loadEnvConfig } from "./utils/loadEnvConfig";
+loadEnvConfig(`${__dirname}/..`);
 
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
